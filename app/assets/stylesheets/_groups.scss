@@ -121,9 +121,10 @@
     .input-box {
       position: relative;
       height: 50px; 
+      width: 100%;
       &--text{
         height: 50px;
-        width: 720px;
+        width: calc(100% - 200px);
         padding: 0 40px 0 10px;
         background-color: white;
         border-style: none;
@@ -135,9 +136,10 @@
       &--image {
         font-size: 1.3rem;
         position: absolute;
-        top: 10px;
-        left: 740px;
+        top: 2.5px;
+        right: 10px;
         cursor: pointer; 
+        
       }
       &--submit {
         height: 50px;
